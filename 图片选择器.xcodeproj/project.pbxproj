@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745884F622898BF300A7933E /* PHAsset+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 745884F522898BF300A7933E /* PHAsset+Helper.m */; };
 		74821391227551550005A9A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74821390227551550005A9A9 /* AppDelegate.m */; };
 		74821394227551550005A9A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74821393227551550005A9A9 /* ViewController.m */; };
 		74821397227551550005A9A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74821395227551550005A9A9 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		7482139F227551560005A9A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482139E227551560005A9A9 /* main.m */; };
 		748213A9227551560005A9A9 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748213A8227551560005A9A9 /* _____Tests.m */; };
 		748213B4227551560005A9A9 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748213B3227551560005A9A9 /* _____UITests.m */; };
+		74E24F3622840872003B3DF3 /* SelectImgController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E24F3422840872003B3DF3 /* SelectImgController.m */; };
+		74E24F3722840872003B3DF3 /* SelectImgController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E24F3522840872003B3DF3 /* SelectImgController.xib */; };
+		74E24F3A22841FDD003B3DF3 /* SelectImgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E24F3922841FDD003B3DF3 /* SelectImgCell.m */; };
+		74E24F3D2284479E003B3DF3 /* PhotoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E24F3C2284479E003B3DF3 /* PhotoTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		745884F422898BF300A7933E /* PHAsset+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAsset+Helper.h"; sourceTree = "<group>"; };
+		745884F522898BF300A7933E /* PHAsset+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+Helper.m"; sourceTree = "<group>"; };
 		7482138C227551550005A9A9 /* 图片选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7482138F227551550005A9A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74821390227551550005A9A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		748213AF227551560005A9A9 /* 图片选择器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片选择器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		748213B3227551560005A9A9 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		748213B5227551560005A9A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E24F3322840872003B3DF3 /* SelectImgController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectImgController.h; sourceTree = "<group>"; };
+		74E24F3422840872003B3DF3 /* SelectImgController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectImgController.m; sourceTree = "<group>"; };
+		74E24F3522840872003B3DF3 /* SelectImgController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectImgController.xib; sourceTree = "<group>"; };
+		74E24F3822841FDD003B3DF3 /* SelectImgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectImgCell.h; sourceTree = "<group>"; };
+		74E24F3922841FDD003B3DF3 /* SelectImgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectImgCell.m; sourceTree = "<group>"; };
+		74E24F3B2284479E003B3DF3 /* PhotoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoTool.h; sourceTree = "<group>"; };
+		74E24F3C2284479E003B3DF3 /* PhotoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				74821390227551550005A9A9 /* AppDelegate.m */,
 				74821392227551550005A9A9 /* ViewController.h */,
 				74821393227551550005A9A9 /* ViewController.m */,
+				74E24F3322840872003B3DF3 /* SelectImgController.h */,
+				74E24F3422840872003B3DF3 /* SelectImgController.m */,
+				74E24F3522840872003B3DF3 /* SelectImgController.xib */,
+				74E24F3822841FDD003B3DF3 /* SelectImgCell.h */,
+				74E24F3922841FDD003B3DF3 /* SelectImgCell.m */,
+				74E24F3B2284479E003B3DF3 /* PhotoTool.h */,
+				74E24F3C2284479E003B3DF3 /* PhotoTool.m */,
+				745884F422898BF300A7933E /* PHAsset+Helper.h */,
+				745884F522898BF300A7933E /* PHAsset+Helper.m */,
 				74821395227551550005A9A9 /* Main.storyboard */,
 				74821398227551560005A9A9 /* Assets.xcassets */,
 				7482139A227551560005A9A9 /* LaunchScreen.storyboard */,
@@ -236,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7482139C227551560005A9A9 /* LaunchScreen.storyboard in Resources */,
+				74E24F3722840872003B3DF3 /* SelectImgController.xib in Resources */,
 				74821399227551560005A9A9 /* Assets.xcassets in Resources */,
 				74821397227551550005A9A9 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E24F3D2284479E003B3DF3 /* PhotoTool.m in Sources */,
 				74821394227551550005A9A9 /* ViewController.m in Sources */,
+				74E24F3622840872003B3DF3 /* SelectImgController.m in Sources */,
 				7482139F227551560005A9A9 /* main.m in Sources */,
+				745884F622898BF300A7933E /* PHAsset+Helper.m in Sources */,
 				74821391227551550005A9A9 /* AppDelegate.m in Sources */,
+				74E24F3A22841FDD003B3DF3 /* SelectImgCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKR87TTKML;
 				INFOPLIST_FILE = "图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +482,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKR87TTKML;
 				INFOPLIST_FILE = "图片选择器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
