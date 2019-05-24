@@ -10,6 +10,8 @@
 #import "SelectImgCell.h"
 #import "PhotoTool.h"
 #import "PHAsset+Helper.h"
+#import "OUPhotoBrowseController.h"
+
 
 #define kWindowWidth        [UIScreen mainScreen].bounds.size.width
 #define kWindowHeight       [UIScreen mainScreen].bounds.size.height
@@ -92,6 +94,13 @@
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return CGSizeMake((kWindowWidth-3)/4.0, (kWindowWidth-3)/4.0);
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    OUPhotoBrowseController *vc= [[OUPhotoBrowseController alloc] init];
+    vc.imgsArray = self.dataArray;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 #pragma mark- tableView

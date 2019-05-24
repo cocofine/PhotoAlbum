@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741F9B312297E0DE00F70CF9 /* OUPhotoBrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741F9B2F2297E0DE00F70CF9 /* OUPhotoBrowseController.m */; };
+		741F9B352297F8B900F70CF9 /* OUPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 741F9B342297F8B900F70CF9 /* OUPhotoBrowseCell.m */; };
 		745884F622898BF300A7933E /* PHAsset+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 745884F522898BF300A7933E /* PHAsset+Helper.m */; };
 		74821391227551550005A9A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74821390227551550005A9A9 /* AppDelegate.m */; };
 		74821394227551550005A9A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74821393227551550005A9A9 /* ViewController.m */; };
@@ -40,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		741F9B2E2297E0DE00F70CF9 /* OUPhotoBrowseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OUPhotoBrowseController.h; sourceTree = "<group>"; };
+		741F9B2F2297E0DE00F70CF9 /* OUPhotoBrowseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OUPhotoBrowseController.m; sourceTree = "<group>"; };
+		741F9B332297F8B900F70CF9 /* OUPhotoBrowseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OUPhotoBrowseCell.h; sourceTree = "<group>"; };
+		741F9B342297F8B900F70CF9 /* OUPhotoBrowseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OUPhotoBrowseCell.m; sourceTree = "<group>"; };
 		745884F422898BF300A7933E /* PHAsset+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PHAsset+Helper.h"; sourceTree = "<group>"; };
 		745884F522898BF300A7933E /* PHAsset+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+Helper.m"; sourceTree = "<group>"; };
 		7482138C227551550005A9A9 /* 图片选择器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片选择器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +134,10 @@
 				74E24F3C2284479E003B3DF3 /* PhotoTool.m */,
 				745884F422898BF300A7933E /* PHAsset+Helper.h */,
 				745884F522898BF300A7933E /* PHAsset+Helper.m */,
+				741F9B2E2297E0DE00F70CF9 /* OUPhotoBrowseController.h */,
+				741F9B2F2297E0DE00F70CF9 /* OUPhotoBrowseController.m */,
+				741F9B332297F8B900F70CF9 /* OUPhotoBrowseCell.h */,
+				741F9B342297F8B900F70CF9 /* OUPhotoBrowseCell.m */,
 				74821395227551550005A9A9 /* Main.storyboard */,
 				74821398227551560005A9A9 /* Assets.xcassets */,
 				7482139A227551560005A9A9 /* LaunchScreen.storyboard */,
@@ -290,7 +300,9 @@
 				74821394227551550005A9A9 /* ViewController.m in Sources */,
 				74E24F3622840872003B3DF3 /* SelectImgController.m in Sources */,
 				7482139F227551560005A9A9 /* main.m in Sources */,
+				741F9B312297E0DE00F70CF9 /* OUPhotoBrowseController.m in Sources */,
 				745884F622898BF300A7933E /* PHAsset+Helper.m in Sources */,
+				741F9B352297F8B900F70CF9 /* OUPhotoBrowseCell.m in Sources */,
 				74821391227551550005A9A9 /* AppDelegate.m in Sources */,
 				74E24F3A22841FDD003B3DF3 /* SelectImgCell.m in Sources */,
 			);
